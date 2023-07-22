@@ -29,7 +29,7 @@ const student = {
 }
 console.log(student);
 
-student.fullName = 'Saurabh Kumar Dubey';   // Updating value of property using dot notation
+student.fullName = 'Saurabh Kumar Dubey';    Updating value of property using dot notation
 console.log(student);
 
 /*
