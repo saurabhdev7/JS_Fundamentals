@@ -28,23 +28,23 @@ let fruits = ['Apple', 'Banana', 'Grapes', 'Mango'];
 console.log(fruits);
 
 
-// fruits.push('Pineapple');   // push() : adds an element at the end of the array.
+// fruits.push('Pineapple');   
 // console.log(fruits);
 
-// let poppedFruit = fruits.pop();    // pop() : removes an element from the end of the array.
+// let poppedFruit = fruits.pop();    
 // console.log(fruits);
 // console.log(`Popped fruit is : ${poppedFruit}`);
 
-// fruits.unshift('Orange');   // unshift() : adds an element at the beginning of the array.
+// fruits.unshift('Orange');   
 // console.log(fruits);
 
-// fruits.shift();      // shift() : removes an element from the beginning of the array.
+// fruits.shift();      
 // console.log(fruits);
 
-// fruits.splice(1, 2);   // splice() : removes an element from the specified index.
+// fruits.splice(1, 2);   
 // console.log(fruits);
 
-// fruits.splice(1, 0, 'Kiwi', 'Guava');   // splice() : adds an element at the specified index.
+// fruits.splice(1, 0, 'Kiwi', 'Guava');   
 // console.log(fruits);
 
 // fruits = [];     // emptying an array.
@@ -53,4 +53,6 @@ console.log(fruits);
 // fruits.length = 0;    // emptying an array.
 // console.log(fruits);  
 
-// console.log(fruits.includes('Kiwi'));   // includes() : checks if the element is present in the array.
+// console.log(fruits.includes('Kiwi'));
+
+// console.log(fruits.join());
