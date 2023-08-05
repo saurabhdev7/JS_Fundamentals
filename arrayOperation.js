@@ -7,7 +7,10 @@
 // 4. shift() : removes an element from the beginning of the array.
 
 // 5. splice() : removes an element from the specified index.
+// Adds and/or removes elements from an array. It changes the original array. 
+
 // 6. slice() : returns a new array from the specified index.
+// Returns selected elements in an array as a new array object. It does not change the original array. 
 
 // 7. sort() : sorts the array in ascending order.
 // 8. reverse() : reverses the array.
@@ -44,7 +47,7 @@ console.log(fruits);
 // fruits.splice(1, 2);   
 // console.log(fruits);
 
-// fruits.splice(1, 0, 'Kiwi', 'Guava');   
+// fruits.splice(1, 2, 'Kiwi', 'Guava');   
 // console.log(fruits);
 
 // fruits = [];     // emptying an array.
@@ -56,3 +59,5 @@ console.log(fruits);
 // console.log(fruits.includes('Kiwi'));
 
 // console.log(fruits.join());
+
+console.log(fruits.slice(1, 3));
