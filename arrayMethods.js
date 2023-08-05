@@ -12,4 +12,3 @@ array1.push('Ishan');
 console.log(array1);
 console.log(array2);
 console.log(array1 === array2) // false 
-

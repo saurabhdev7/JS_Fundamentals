@@ -23,3 +23,6 @@ console.log(newString.toLowerCase());    // toLowerCase() converts the string to
 let myFav1 = 'Javascript'
 let myFav2 = myFav1.slice(0,4)  // slice() extracts a part of a string and returns the extracted part in a new string.
 console.log(myFav2);
+
+
+console.log(myFav1.indexOf('s'));   // indexOf() returns the index of (the position of) the first occurrence of a specified text in a string.

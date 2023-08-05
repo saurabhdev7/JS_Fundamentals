@@ -5,19 +5,6 @@
 // 2. Anonymous function
 // 3. Arrow function
 
-function displayTable()
-{
-    var i=0;
-    
-    for(i=0;i<=10;i++)
-    {
-        console.log(7,"x",i,"=",7*i);
-        
-    }
-}
-displayTable();
-
-console.log("-------------------------"); 
 
 function displayTable(y)
 {
@@ -28,5 +15,11 @@ function displayTable(y)
     }
 }
 displayTable(5);
-console.log("Thik hi hai");
-displayTable(7);
+
+
+
+function sumTwoNumber(num1,num2){
+    return num1 + num2;
+}
+const resultValue = sumTwoNumber(54,46);
+console.log(resultValue);
