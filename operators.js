@@ -1,5 +1,36 @@
 // Operators : ==, ===, !=, !==, >, <, >=, <=, &&, ||, !, ?:
 
+// Prefix increment/decrement operator : In this case, the value of x is incremented/decremented first by 1 and then assigned to y.
+
+// Postfix increment/decrement operator : In this case, the value of x is assigned to y first and then incremented/decremented by 1.
+
+// let x = 5;    
+// let y = ++x;
+// console.log(x, y);      // 6 6
+
+// let x = 5;
+// let y = x++;
+// console.log(x, y);      // 6 5
+
+// let x = 5;
+// let y = x--;
+// console.log(x, y);      // 4 5
+
+// let x = 5;
+// let y = --x;
+// console.log(x, y);      // 4 4
+
+// let num = 15;
+// let newNum = num++ + 5;
+// console.log(num, newNum);
+
+
+// let num = 15;
+// let newNum = --num + 5;
+// console.log(num, newNum);
+
+
+
 var x = 5;
 var y = 6;
 console.log(x == y);
