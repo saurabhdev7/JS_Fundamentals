@@ -21,9 +21,9 @@ console.log(person.name);
 
 // Example:
 const person1 = {
-    nam: 'Bipin',
-    umar: 28,
-    pesha: 'Full Stack Developer'
+    name1: 'Bipin',
+    age1: 28,
+    profession1: 'Full Stack Developer'
 };
 
 console.log(person1['pesha']);
@@ -33,10 +33,15 @@ console.log(person1['pesha']);
 
 // Example:
 
-const fruit = {
-    color: 'red',
-    size: 'medium',
-    taste : 'sweet'
-};
-const {taste} = fruit;
-console.log(taste);
+// const fruit = {
+//     color: 'red',
+//     size: 'medium',
+//     taste : 'sweet'
+// };
+// const {taste} = fruit;
+// console.log(taste);
+
+// Spread operator: 
+
+const person2 = {...person, ...person1};
+console.log(person2);

@@ -1,4 +1,5 @@
 /*
+
 const users = [
     {userId : 1, Name : 'Saurabh', Location : 'Kolkata'},
     {userId : 2, Name : 'Bipin', Location : 'Kolkata'},
@@ -35,3 +36,5 @@ console.log(Location);
 // const [ {Name : Name1} , , {Location : Location3} ] = users;
 // console.log(Name1);
 // console.log(Location3);
+
+console.log(Object.keys(users[0]));    // Object.keys() returns an array of a given object's.
