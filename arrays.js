@@ -12,9 +12,12 @@
 // 2. Using array constructor (new keyword) :
 // Syntax : const arrayName = new Array(value1, value2, value3, ...)
 
+
+
 const student = ['Saurabh', 'Bipin', 'Navin', 'Subhajit', 'Ishan']
 console.log(student);
 
+/*
 
 const students = [
     {
@@ -39,12 +42,11 @@ const students = [
     }
 ]
 console.log(students);
-
 console.log(students[0].Name);
+
 
 students.pop();
 console.log(students);
-
 
 
 students.push({Name: "Ishan",
@@ -55,3 +57,4 @@ Marks: 92
 
 console.log(students);
 
+*/

@@ -1,3 +1,5 @@
+// ----------------------------- Logical Operators --------------------------------
+
 // Operators : ==, ===, !=, !==, >, <, >=, <=, &&, ||, !, ?:
 
 // Prefix increment/decrement operator : In this case, the value of x is incremented/decremented first by 1 and then assigned to y.
@@ -59,8 +61,29 @@ if(naam[0] === 'S' && marks > 20) {
 }
 
 
-// Ternary Operator : They are used to assign a value to a variable based on some condition. It is the only operator that takes three operands. The operator is a question mark (?), and colon (:). The general 
+
+// --------------------- Mathematical Operators ------------------------------
+
+
+let score = 50;
+
+let result = score*2 + (4*3) -8 / 2 % 4;
+console.log(result);
+
+// Using Priority and Precedence :
+// 1. () Brackets
+// 2. ** Power operators
+// 3. * / %  ( From left to right)
+// 4. + - ( From left to right)
+
+
+
+// --------------------- Terenary Operator -----------------------------------
+
+// Ternary Operator : They are used to assign a value to a variable based on some condition. It is the only operator that takes three operands. The operator is a question mark (?), and colon (:).
+
 // Syntax is as follows:  variable = (condition) ? value1: value2
+
 // If the condition is true, the variable is assigned value1. If the condition is false, the variable is assigned value2.
 
 
