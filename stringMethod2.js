@@ -1,3 +1,5 @@
+// ----------------------------------- String Method -----------------------------------
+
 let numberType = '25';
 console.log(numberType, typeof numberType);
 

@@ -6,6 +6,7 @@
 // 1. Dot notation:
 // Syntax -- objectName.keyname
 
+
 // Example:
 
 const person = {
@@ -15,6 +16,7 @@ const person = {
 };
 
 console.log(person.name);
+
 
 // 2. Bracket notation:
 // Syntax -- objectName['key']
@@ -28,8 +30,10 @@ const person1 = {
 
 console.log(person1['pesha']);
 
+
 // 3. Object destructuring:
 // Syntax -- const {keyName} = objectName;
+
 
 // Example:
 
@@ -41,7 +45,6 @@ console.log(person1['pesha']);
 // const {taste} = fruit;
 // console.log(taste);
 
-// Spread operator: 
 
-const person2 = {...person, ...person1};
+const person2 = {...person, ...person1};        // Merging two objects using spread operator.
 console.log(person2);
