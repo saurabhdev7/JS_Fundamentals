@@ -1,3 +1,5 @@
+// ---------------------------------- Date and Time ----------------------------------
+
 let myDate = new Date();
 
 // console.log(myDate);
