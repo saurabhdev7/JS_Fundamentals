@@ -1,14 +1,18 @@
-// Block Scope Vs Function Scope (ES6) :
+// --------------------------- Block Scope Vs Function Scope (ES6) -----------------------------
+
 
 // Var is function scoped 
 // Let & Const is block scoped.
 
+
 /*
+
 if(true){
     let firstName = 'Saurabh';
     console.log(firstName);
 }
 console.log(firstName);
+
 */
 
 

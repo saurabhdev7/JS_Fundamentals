@@ -1,4 +1,6 @@
-// 1. Default parameters in ES5 : 
+// ---------------------------- Default parameters in ES5 ----------------------------
+
+
 /*
 function addTwo(a,b){
     if (b==='undefined'){
@@ -9,8 +11,11 @@ function addTwo(a,b){
 const ans = addTwo(2,5);
 console.log(ans);
 
+*/
 
-// 1a. Default parameters in ES6 :
+// ---------------------------- Default parameters in ES6 ----------------------------
+
+// Default parameters are used to assign default values to the parameters of a function. 
 
 function addTwo(a,b=10){
     return a+b;
@@ -18,11 +23,11 @@ function addTwo(a,b=10){
 const ans2 = addTwo(2);
 console.log(ans2);
 
-*/
 
-// 2. Rest parameters in ES6 :
+// ---------------------------- Rest parameters in ES6 ------------------------------
 
 /*
+
 function myFunc(a,b,...c){
     console.log(`a is ${a}`);
     console.log(`b is ${b}`);
