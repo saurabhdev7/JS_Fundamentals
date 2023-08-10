@@ -15,6 +15,8 @@
   }
 */
 
+/*
+
 let num = 3;
 
 switch(num){
@@ -32,4 +34,29 @@ switch(num){
         break;
     default:
         console.log('No fruit');
+}
+
+*/
+
+
+let area = 'circle';
+const PI = 3.14;
+let r = 5;
+let l = 2;
+let b = 3;
+
+switch(area){
+    case 'circle':
+        console.log(`The area of circle is ${PI * r**2}`);
+        break;
+
+    case 'rectangle':
+        console.log(`The area of rectangle is ${l * b}`);
+        break;
+
+    case 'triangle':
+        console.log(`The area of triangle is ${l * b / 2}`);
+        break;
+    default:
+        console.log('Please enter valid data');
 }

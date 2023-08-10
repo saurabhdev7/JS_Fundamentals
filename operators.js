@@ -88,6 +88,6 @@ console.log(result);
 
 
 let age = 18;
-let isAdult = age>= 18 ? 'You are adult' : 'You are not adult';
+let isAdult = (age>= 18) ? 'You are adult' : 'You are not adult';
 
 console.log(isAdult);

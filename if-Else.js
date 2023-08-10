@@ -25,8 +25,9 @@ else
 
 */
 
-// Nested if else statement : 
+// Nested if else statement :
 
+/*
 let winningNumber = 11;
 let guessNumber = +prompt('Guess a number :')
 
@@ -39,4 +40,24 @@ else{
     }else{
         console.log('Too Low, Try again');
     }
+}
+*/
+
+let area = 'triangle';
+const PI = 3.14;
+let r = 5;
+let l = 2;
+let b = 3;
+
+if(area === 'circle'){
+    console.log(`The area of circle is ${PI * r**2}`);
+}
+else if(area === 'rectangle'){
+    console.log(`The area of rectangle is ${l * b}`);
+}
+else if(area === 'triangle'){
+    console.log(`The area of triangle is ${l * b / 2}`);
+}
+else{
+    console.log('Please enter valid data');
 }

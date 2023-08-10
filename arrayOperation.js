@@ -23,10 +23,10 @@
 // 10. indexOf() : returns the index of the element.
 // 11. lastIndexOf() : returns the last index of the element.
 
-// 12. join() : converts the array into a string.
+// 12. join() : converts the array into a string. It does not change the original array.
 // 13. toString() : converts the array into a string.
 
-// 14. concat() : joins two or more arrays.
+// 14. concat() : joins two or more arrays. It does not change the original array.
 
 
 // --------------------------------- Array Operations ----------------------------------
