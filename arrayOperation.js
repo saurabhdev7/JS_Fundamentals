@@ -99,44 +99,8 @@ console.log(fruits);
 // console.log(reversedFruit);
 
 
-/*
-
-const students = [
-    {
-        Name: "Saurabh",
-        Age: 25,
-        RollNo: 1,
-        Marks: 95
-    },
-
-    {
-        Name: "Navin",
-        Age: 26,
-        RollNo: 2,
-        Marks: 96
-    },
-
-    {
-        Name: "Bipin",
-        Age: 27,
-        RollNo: 3,
-        Marks: 98
-    }
-]
-console.log(students);
-console.log(students[0].Name);
+// let joinedFruits = fruits.join(' ');
+// console.log(joinedFruits);
 
 
-students.pop();
-console.log(students);
-
-
-students.push({Name: "Ishan",
-Age: 12,
-RollNo: 8,
-Marks: 92
-});
-
-console.log(students);
-
-*/
+// console.log(fruits.at(-2));     // returns the element at the specified index.

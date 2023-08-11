@@ -36,4 +36,40 @@ let array2 = array1.slice(0).concat(['Sumit', 'Shubham']);
 // console.log(array1);
 console.log(array2);
 
-console.log(array1 === array2) // false 
+console.log(array1 === array2) // false
+
+
+
+const students = [
+    {
+        Name: "Saurabh",
+        Age: 25,
+        RollNo: 1,
+        Marks: 95
+    },
+
+    {
+        Name: "Navin",
+        Age: 26,
+        RollNo: 2,
+        Marks: 96
+    },
+
+    {
+        Name: "Bipin",
+        Age: 27,
+        RollNo: 3,
+        Marks: 98
+    }
+]
+console.log(students);
+console.log(students[0].Name);
+
+
+students.push({Name: "Ishan",
+Age: 12,
+RollNo: 8,
+Marks: 92
+});
+
+console.log(students);

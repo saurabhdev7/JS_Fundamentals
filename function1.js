@@ -1,12 +1,12 @@
-function findTarget(array, target){
+function findTarget(array, myTarget){
     for(let i=0; i<array.length; i++){
-        if(array[i] === target){
+        if(array[i] === myTarget){
             return i;
         }
     } return -1;
 }
 const myArray = [1,2,3,5,6];
-const result = findTarget(myArray, 4);
+const result = findTarget(myArray, 5);
 console.log(result);
 
 

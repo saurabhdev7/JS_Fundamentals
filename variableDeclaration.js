@@ -68,7 +68,7 @@ let is a local variable and cannot be accessed outside the block.
 */
 
 
-/*
-var can be re-declared and updated but let can only be updated.
-constant cannot be updated or redeclared.
-*/
+
+// var -- can be re-declared and updated but let can only be updated.
+// const -- cannot be updated or redeclared.
+
