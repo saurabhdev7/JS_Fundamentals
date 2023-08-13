@@ -48,7 +48,7 @@ console.log(student);
 
 
 const key = 'Email';
-student[key] = 'sdsilarin@gmail.com';    // Adding new property to object using variable key 
+student[key] = 'sdsilarin@gmail.com';      // Adding new property to object using variable key 
 console.log(student);
 
 */

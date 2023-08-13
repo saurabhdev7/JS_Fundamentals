@@ -87,7 +87,10 @@ console.log(result);
 // If the condition is true, the variable is assigned value1. If the condition is false, the variable is assigned value2.
 
 
-let age = 18;
-let isAdult = (age>= 18) ? 'You are adult' : 'You are not adult';
+let age = 19;
+let validId = false;
+
+let isAdult = (age> 18) ? (validId === true) ? 'You can vote' : 'Disqualified' : 'Not eligible'
+// If first condition is true, then second condition will be checked.
 
 console.log(isAdult);

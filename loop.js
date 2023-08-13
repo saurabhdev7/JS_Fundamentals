@@ -1,4 +1,4 @@
-// Code: While loop
+// ------------------------------ Code: While loop -------------------------------
 
 // let x=0;
 // while(x<10) {
@@ -27,7 +27,8 @@ for(let i = 1; i <=10; i++){
 
 
 
-// Code : for loop 
+// ------------------------------- Code : for loop -------------------------------
+
 
 // let x=5;
 // for(let i=1;i<=10;)
@@ -36,6 +37,8 @@ for(let i = 1; i <=10; i++){
 //     i++;
 // }
 
+
+// --------------------------- Example -----------------------------
 
 
 // Sum of first 10 natural numbers :
@@ -48,3 +51,19 @@ for(let i = 1; i <=10; i++){
 //     i++;
 // }
 // console.log(total);
+
+
+
+let i = 0;
+while(i<5){
+    if(i==3){
+        break;
+    }
+    // console.log(i);         // 0 1 2
+    i++;
+    // console.log(i);       // 1 2 3
+}
+// console.log(i);         // 3
+
+
+
