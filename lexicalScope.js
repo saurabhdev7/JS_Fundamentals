@@ -9,7 +9,7 @@ const printName = function(){
     function myFunc(){
         console.log(firstName);
         
-        // It is lexically present in the scope of myFunc(). 
+        // It is lexically present in the scope of printName(). 
         // It is not defined in the scope of myFunc(), but it is defined in the scope of printName().
 
         console.log(lastName);       // It is present in the Global scope.
