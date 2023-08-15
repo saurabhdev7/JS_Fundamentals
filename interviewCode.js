@@ -28,3 +28,15 @@ let val2 = 'Saurabh' + 1 + 2;
 
 // console.log(val1);      // 3Saurabh
 // console.log(val2);      // Saurabh12
+
+
+
+// 4.
+
+const arr = [1,2,3,4];
+const arr1 = arr.map(val=>val);
+const arr2 = arr;
+arr2.push(5);
+console.log(arr,arr1,arr2);
+
+// output = ??

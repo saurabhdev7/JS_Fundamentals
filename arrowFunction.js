@@ -9,6 +9,9 @@
 // person();
 
 
+// Example 1 :
+
+
 const nums = (x,y) => {
     return x + y;
     
