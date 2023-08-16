@@ -9,8 +9,19 @@ const person = {
     Age : 27,
     Location : ['Kolkata', 'Uttar Pradesh']
 }
-for (let key in person){
-    console.log(`${key} : ${person[key]}`)
-}
 
-console.log(Object.keys(person)); // It will return an array of keys of the object.
+// Type : 1
+
+// for (let key in person){
+//     console.log(`${key} : ${person[key]}`)
+// }
+
+// console.log(Object.keys(person));     // It will return an array of keys of the object.
+// console.log(person);
+
+
+// Type : 2
+
+for (let [key, value] of Object.entries(person)){
+    console.log(`${key} : ${value}`);
+}
