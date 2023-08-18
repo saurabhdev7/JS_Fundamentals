@@ -7,18 +7,7 @@
 // let result = myFunc(1,2,3,4,5,6);
 // console.log(result);
 
-
-
-const user = {
-    name:'Saurabh',
-
-    city: 'Kolkata',
+function greet(){
+    console.log('Hello World');
 }
-
-
-const address = {
-    street: 'Rabindra Sarani',
-}
-
-const newUser = {...user, ...address};
-console.log(newUser);
+greet();

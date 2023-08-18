@@ -21,13 +21,29 @@
 
 
 
+// call back function is without name and it is anonymous function. 
+
+
+
 let users = [
-    {firstName : 'Saurabh', age : 26},
-    {firstName : 'Ankit', age : 24},
-    {firstName : 'Bipin', age : 28},
-    {firstName : 'Subhajit', age : 22}
+    
+{   firstName : 'Saurabh',
+    age : 26
+},
+
+{   firstName : 'Ankit',
+    age : 24
+},
+
+{   firstName : 'Bipin',
+    age : 28
+},
+
+{   firstName : 'Subhajit',
+    age : 22
+}
 ]
 
-users.forEach(function(user){
+users.forEach((user) => {
     console.log(`Name is - ${user.firstName}`);                                                                        
 })
