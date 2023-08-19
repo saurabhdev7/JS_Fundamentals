@@ -7,7 +7,3 @@
 // let result = myFunc(1,2,3,4,5,6);
 // console.log(result);
 
-function greet(){
-    console.log('Hello World');
-}
-greet();
