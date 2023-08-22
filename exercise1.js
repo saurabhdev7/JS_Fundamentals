@@ -19,8 +19,8 @@ console.log(`The sum of ${firstNumber} and ${secondNumber} is : ${sum}`);
 // Math.sqrt() function returns NaN if the number passed to it is negative.
 // Math.sqrt() function returns NaN if the number passed to it is not a number.
 
+
 const num = parseInt((prompt('Enter a number: ')));
 const result = Math.sqrt(num);
 
 console.log(`The square root of ${num} is : ${result}`);
-
