@@ -43,12 +43,12 @@ student.Gender = 'Male';       // Adding new property to object using dot notati
 console.log(student);
 
 
-student['Age'] = 21;       // Adding new property to object using bracket notation
+student['Age'] = 21;        // Adding new property to object using bracket notation
 console.log(student);
 
 
 const key = 'Email';
-student[key] = 'sdsilarin@gmail.com';      // Adding new property to object using variable key 
+student[key] = 'sdsilarin@gmail.com';       // Adding new property to object using variable key 
 console.log(student);
 
 */
