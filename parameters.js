@@ -41,3 +41,16 @@ function myFunc(a,b,...c){
 myFunc(1,2,3,4,5,6);
 
 
+
+// Example : 2
+
+
+// const sum = (... numbers) => {
+//     let total = 0;
+//     numbers.forEach((nums) => {
+//         total = total + nums;
+// });
+// console.log(total);
+// }
+
+// sum(1,2,3,4,5,6,7,8,9,10);
