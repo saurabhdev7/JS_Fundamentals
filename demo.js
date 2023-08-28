@@ -1,9 +1,11 @@
-// function myFunc(num1, num2, ...items){
-//     let total = 0;
-//     for (let i =0; i<items.length; i++){
-//         total = total + items[i];
-// }
-// }
-// let result = myFunc(1,2,3,4,5,6);
-// console.log(result);
+// alert('Hello World');
 
+const person = {
+    name : 'Saurabh',
+    age : 20,
+    greet : function(){
+        console.log(`Hello ${this.name}! Welcome to the world of JS`)
+    }
+}
+
+person.greet()
