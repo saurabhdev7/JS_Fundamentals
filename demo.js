@@ -1,5 +1,8 @@
 // alert('Hello World');
 
+// call back function is without name and it is anonymous function. 
+
+
 
 function sayHello(){
     console.log('Hello');

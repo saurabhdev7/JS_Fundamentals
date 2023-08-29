@@ -1,4 +1,9 @@
-// map() Function
+// map() Function :
+
+// It creats a new array by performing some operation on each element of the array.
+
+// Syntax : array.map((value, index, arr) => { ... })
+
 
 const myArray = [2,5,8,9,11];
 
@@ -7,6 +12,7 @@ const newArray = myArray.map((num) => num**2);
 console.log(newArray);
 
 
+// -------------------------------------------------------------------------------------
 
 
 // filter() Function :
@@ -18,6 +24,7 @@ const newAge = myAge.filter((age) => age >= 18);
 console.log(newAge);
 
 
+// --------------------------------------------------------------------------------------
 
 
 // find() Function :
@@ -32,6 +39,8 @@ console.log(newPokemon);
 
 
 // reduce() Function :
+
+// It reduces the array to a single value.
 
 const myNumbers = [7,1,2,0,3];
 

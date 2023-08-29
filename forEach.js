@@ -10,7 +10,7 @@
 // --> the array itself.
 
 
-// Syntax : arrayName.forEach(function(currentvalue, index, arr))
+// Syntax : arrayName.forEach((currentvalue, index, arr) => { function logic });
 
 
 // let vegetables = ['Cabbage', 'Turnip', 'Radish', 'Carrot', 'Potato', 'Tomato'];
@@ -21,8 +21,7 @@
 
 
 
-// call back function is without name and it is anonymous function. 
-
+// ------------------------------------------------------------------------------------
 
 
 let users = [
