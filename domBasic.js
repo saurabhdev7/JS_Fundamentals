@@ -1,4 +1,4 @@
-// DOM Manipulation : Document Object Model
+// DOM Manipulation : Document Object Model 
 
 
 // 1 - .getElementById :
